@@ -1,0 +1,19 @@
+.input-box{
+  width: 100px;
+  height: 100px;
+}
+
+form {
+  width: 320px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+body{
+  background: black;
+}
+
+h1{
+  text-align: center;
+  color: white;
+}
