@@ -1,11 +1,19 @@
-h1 Hello
+extends layout
 
-//- form
-//-   input(type='text', name='name', placeholder='Bobby')
-//-   input(type='text', name='text', placeholder='Howdy')
-//-   input(type='submit')
+block content
 
-//- ul
-
-//- script(src='/vendor/socket.io-client/socket.io.js')
-//- script(src='/js/main.js')
+  h1 Tic Tac Toe
+  form
+      div.form-group.width
+          input.input-box(type="text", name="0", placeholder="X or O")
+          input.input-box(type="text", name="1", placeholder="X or O")
+          input.input-box(type="text", name="2", placeholder="X or O")
+      div.form-group.width
+          input.input-box(type="text", name="3", placeholder="X or O")
+          input.input-box(type="text", name="4", placeholder="X or O")
+          input.input-box(type="text", name="5", placeholder="X or O")
+      div.form-group.width
+          input.input-box(type="text", name="6", placeholder="X or O")
+          input.input-box(type="text", name="7", placeholder="X or O")
+          input.input-box(type="text", name="8", placeholder="X or O")
+  button.btn.center-block Play
