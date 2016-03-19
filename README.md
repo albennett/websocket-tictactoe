@@ -1,6 +1,6 @@
 # websocket-tictactoe
 
-A NSS individual project working with socketio in Node
+A NSS individual project working with socket.io in Node
 
 ##Goal
 
